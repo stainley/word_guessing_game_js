@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="canvas-container">
+    <canvas id="game-canvas" width="600" height="500"></canvas>
+    <div id="life-container">
+        <p id="lives" hidden>Lives: 3</p>
+        <div id="health-container"></div>
+        <p id="score">Score: 0</p>
+    </div>
+
+    <div id="leaderboard-container">
+        <div id="leaderboard" class="leaderboard"></div>
+    </div>
+    <button id="retry-button" hidden>Retry</button>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
